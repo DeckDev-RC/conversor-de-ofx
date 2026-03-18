@@ -58,3 +58,14 @@ env/
 ### Saídas geradas do projeto
 /backend_dist/
 /artifacts/
+
+### Dados/exports locais (raiz do repo)
+# Evita commitar PDFs/OFXs/JSONs/XLSX gerados durante testes manuais.
+/*.pdf
+/*.ofx
+/*.json
+/*.xlsx
+/*.xls
+
+# Fixtures (mantém versionável)
+!/sample_pdfs/**
