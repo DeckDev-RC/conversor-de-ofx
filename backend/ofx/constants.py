@@ -1,0 +1,14 @@
+OFX_HEADER = (
+    "OFXHEADER:100\r\n"
+    "DATA:OFXSGML\r\n"
+    "VERSION:102\r\n"
+    "SECURITY:NONE\r\n"
+    "ENCODING:USASCII\r\n"
+    "CHARSET:1252\r\n"
+    "COMPRESSION:NONE\r\n"
+    "OLDFILEUID:NONE\r\n"
+    "NEWFILEUID:NONE\r\n"
+)
+
+TIMEZONE = "[-3:GMT]"
+DEFAULT_TIME = "120000"

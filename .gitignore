@@ -1,0 +1,60 @@
+### SO / Editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+### IDEs
+.idea/
+.vscode/
+*.code-workspace
+
+### Logs
+*.log
+logs/
+
+### Env / segredos
+.env
+.env.*
+!.env.example
+
+### Python (geral)
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage/
+htmlcov/
+*.egg-info/
+
+### Virtual envs
+.venv/
+venv/
+ENV/
+env/
+
+### Backend (PyInstaller)
+/backend/build/
+/backend/dist/
+/backend/*.spec
+
+### Frontend (Node/Electron/Vite)
+/frontend/node_modules/
+/frontend/.vite/
+/frontend/.turbo/
+/frontend/.cache/
+/frontend/dist/
+/frontend/release/
+/frontend/out/
+*.tsbuildinfo
+
+### Electron builder (comum)
+*.asar
+
+### Saídas geradas do projeto
+/backend_dist/
+/artifacts/

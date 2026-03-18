@@ -1,0 +1,1 @@
+from backend.ofx.generator import generate_ofx as generate_ofx
