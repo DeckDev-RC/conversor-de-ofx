@@ -8,6 +8,9 @@ Desktop.ini
 .vscode/
 *.code-workspace
 
+### Ferramentas locais (não versionar)
+.claude/settings.local.json
+
 ### Logs
 *.log
 logs/
@@ -66,6 +69,8 @@ env/
 /*.json
 /*.xlsx
 /*.xls
+~$*.xlsx
+~$*.xls
 
 # Fixtures (mantém versionável)
 !/sample_pdfs/**
